@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>redberry</title>
     <link rel="stylesheet" href="style/reset.css" />
     <link rel="stylesheet" href="style/style.css" />
+    <title>boarding</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,7 +17,7 @@
 
   <body>
     <section class="container">
-      <article class="left-box">
+      <article class="left-box-main">
         <div class="position-relative">
           <header>
             <img src="pictures/Vector.png" alt="icon" />
@@ -28,24 +28,24 @@
             />
           </header>
         </div>
-        <div class="backround-scrolling"></div>
-        <footer>© 2022 redberry khingt cup. All rights reserved.</footer>
+        <div class="backround-scrolling-chess-finish"></div>
       </article>
-      <article class="container-right">
-        <div class="text-container">
-          <div class="paragrap-chess">
-            <h1 class="chess-says">chess says</h1>
-            <span class="lot-about">a lot about</span>
-          </div>
-          <h1 class="text-who">who we are</h1>
-          <a href="main.html"> <button type="submit" class="btn-start">
-            Get started
-            <img  src="pictures/btn-icon.svg" class="btn-icon-left" alt="btn-icon"/>
-          </button>
-          </a>
+      <article class="container-right-main">
+        <div class="scroll-container-img">
+            <img class="finish-image" src="pictures/finishimage.svg" alt="icon" />
+        </div>
+        <div class="position-bottom">
+          <a href="index.html">
+            <button type="button" class="reset-start" onclick="startAgain(event)">
+              <img src="pictures/Vector.png" alt="icon" />
+              <p class="finish-btn-text">
+                home page
+              </p>
+            </button>
+        </div>
         </div>
       </article>
     </section>
-    <!-- <script src="javascript/main.js"></script> -->
+    <script src="javascript/reset.js"></script>
   </body>
 </html>
